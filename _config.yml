@@ -1,10 +1,14 @@
 title: UNIST-DA
 description: UNIST Data Analytics Lab
-# 프로젝트 페이지(하위 경로)용 설정
-url: "https://unist-da.github.io"
+
+# 프로젝트 페이지(하위 경로)일 때 필수
+url: "https://<계정또는조직>.github.io"
 baseurl: "/DA-LAB-homepage"
 
-theme: mere-blog-theme
+# remote_theme 방식 (gem 불필요)
+plugins:
+  - jekyll-remote-theme
+remote_theme: <테마소유자>/<테마저장소>
 
 paginate: 6
 paginate_path: "/page:num"
