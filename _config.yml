@@ -1,7 +1,11 @@
 title: DA LAB
-description: Test build
-url: "https://sieun-00.github.io"   # 당신 계정 도메인
-baseurl: "/DA-LAB-homepage"         # 저장소 이름
+description: UNIST Data Analytics Lab
+url: "https://sieun-00.github.io"
+baseurl: "/DA-LAB-homepage"
 
-# 우선 기본 테마 'minima'로 파이프라인 테스트
-theme: minima
+plugins:
+  - jekyll-remote-theme
+remote_theme: <테마_소유자>/<테마_저장소>  # ← 정확한 owner/repo로 교체!
+
+paginate: 6
+paginate_path: "/page:num"
