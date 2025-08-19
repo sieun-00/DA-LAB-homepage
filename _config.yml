@@ -9,3 +9,4 @@ remote_theme: <테마_소유자>/<테마_저장소>  # ← 정확한 owner/repo�
 
 paginate: 6
 paginate_path: "/page:num"
+
